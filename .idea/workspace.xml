@@ -4,6 +4,8 @@
     <list default="true" id="2e31ffeb-2adf-42e2-b64f-44db9cc5fc65" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../crud/mvnw" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../crud/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,35 +25,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/houliu/设计模式/单例模式/Singleton.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            <state relative-caret-position="375">
+              <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/houliu/设计模式/单例模式/TestEnum.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/houliu/java8/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="329">
+              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
               <folding>
-                <element signature="e#388#389#0" expanded="true" />
-                <element signature="e#424#425#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/houliu/设计模式/单例模式/Singleton2.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/houliu/java8/TestUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="369">
+              <caret line="82" column="105" selection-start-line="82" selection-start-column="105" selection-end-line="82" selection-end-column="105" />
               <folding>
-                <element signature="e#389#390#0" expanded="true" />
-                <element signature="e#435#436#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/houliu/java8/TestOptions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="14" column="101" selection-start-line="14" selection-start-column="101" selection-end-line="14" selection-end-column="101" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -63,8 +76,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -74,10 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/houliu/多线程操作/CAS/AtomicIntegerDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/houliu/多线程操作/CAS/AtomicStampedReferenceDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/houliu/多线程操作/生消模式/生消3/MyResources.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/houliu/多线程操作/CAS/AtomicReferenceDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/houliu/多线程操作/工厂模式/简单工厂/Car.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/houliu/多线程操作/工厂模式/简单工厂/Tesla.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/houliu/多线程操作/工厂模式/简单工厂/Wuling.java" />
@@ -125,6 +134,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/houliu/设计模式/单例模式/Singleton.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/houliu/设计模式/单例模式/Singleton3.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/houliu/设计模式/单例模式/TestEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/houliu/java8/User.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/houliu/java8/TestUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/houliu/java8/TestOptions.java" />
       </list>
     </option>
   </component>
@@ -208,29 +221,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="houliu" type="462c0819:PsiDirectoryNode" />
-              <item name="设计模式" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="houliu" type="462c0819:PsiDirectoryNode" />
-              <item name="设计模式" type="462c0819:PsiDirectoryNode" />
-              <item name="单例模式" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Study" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="houliu" type="462c0819:PsiDirectoryNode" />
-              <item name="设计模式" type="462c0819:PsiDirectoryNode" />
-              <item name="建造者模式" type="462c0819:PsiDirectoryNode" />
+              <item name="java8" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -242,7 +233,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579509786773" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579536676335" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -278,59 +269,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestEnum">
-    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.houliu.设计模式.建造者模式.建造者模式1.Test" />
-      <module name="Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.houliu.设计模式.建造者模式.建造者模式1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.houliu.设计模式.建造者模式.建造者模式2.Test" />
-      <module name="Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.houliu.设计模式.建造者模式.建造者模式2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.houliu.设计模式.代理模式.Test" />
-      <module name="Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.houliu.设计模式.代理模式.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.houliu.设计模式.原型模式.Test" />
-      <module name="Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.houliu.设计模式.原型模式.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TestOptions">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.houliu.设计模式.工厂模式.方法工厂.Test" />
       <module name="Study" />
@@ -357,13 +296,74 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestOptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.houliu.java8.TestOptions" />
+      <module name="Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.houliu.java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUser.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.houliu.java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.houliu.java8" />
+      <option name="MAIN_CLASS_NAME" value="com.houliu.java8.TestUser" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUser.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.houliu.java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.houliu.java8" />
+      <option name="MAIN_CLASS_NAME" value="com.houliu.java8.TestUser" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUser.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.houliu.java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.houliu.java8" />
+      <option name="MAIN_CLASS_NAME" value="com.houliu.java8.TestUser" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestOptions" />
+        <item itemvalue="JUnit.TestUser.test1" />
+        <item itemvalue="JUnit.TestUser.test3" />
+        <item itemvalue="JUnit.TestUser.test2" />
         <item itemvalue="Application.TestEnum" />
-        <item itemvalue="Application.Test (5)" />
-        <item itemvalue="Application.Test (4)" />
-        <item itemvalue="Application.Test (3)" />
-        <item itemvalue="Application.Test (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -378,32 +378,44 @@
       <option name="presentableId" value="Default" />
       <updated>1578817889235</updated>
       <workItem from="1578817891151" duration="508000" />
-      <workItem from="1578820761663" duration="58492000" />
+      <workItem from="1578820761663" duration="64869000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TCPTest_server - 2020.01.16 at 16h 19m 50s.xml">
-      <configuration name="TCPTest.server" configurationId="JUnit" />
+    <history-entry file="TestUser_test2 - 2020.01.20 at 22h 46m 49s.xml">
+      <configuration name="TestUser.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TCPTest_client - 2020.01.16 at 16h 19m 50s.xml">
-      <configuration name="TCPTest.client" configurationId="JUnit" />
+    <history-entry file="TestUser_test2 - 2020.01.20 at 22h 47m 17s.xml">
+      <configuration name="TestUser.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UDPTest_receiver - 2020.01.16 at 16h 56m 00s.xml">
-      <configuration name="UDPTest.receiver" configurationId="JUnit" />
+    <history-entry file="TestUser_test2 - 2020.01.20 at 22h 48m 43s.xml">
+      <configuration name="TestUser.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UDPTest_sender - 2020.01.16 at 16h 56m 00s.xml">
-      <configuration name="UDPTest.sender" configurationId="JUnit" />
+    <history-entry file="TestUser_test2 - 2020.01.20 at 22h 48m 59s.xml">
+      <configuration name="TestUser.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UDPTest_sender - 2020.01.16 at 16h 59m 37s.xml">
-      <configuration name="UDPTest.sender" configurationId="JUnit" />
+    <history-entry file="TestUser_test2 - 2020.01.20 at 23h 25m 08s.xml">
+      <configuration name="TestUser.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UDPTest_receiver - 2020.01.16 at 16h 59m 37s.xml">
-      <configuration name="UDPTest.receiver" configurationId="JUnit" />
+    <history-entry file="TestUser_test2 - 2020.01.20 at 23h 27m 21s.xml">
+      <configuration name="TestUser.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUser_test3 - 2020.01.20 at 23h 29m 14s.xml">
+      <configuration name="TestUser.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUser_test3 - 2020.01.20 at 23h 32m 32s.xml">
+      <configuration name="TestUser.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUser_test3 - 2020.01.20 at 23h 34m 44s.xml">
+      <configuration name="TestUser.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUser_test1 - 2020.01.20 at 23h 36m 58s.xml">
+      <configuration name="TestUser.test1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59000000" />
+    <option name="totallyTimeSpent" value="65377000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -427,7 +439,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25060242" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31686747" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -458,44 +470,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/houliu/多线程操作/线程安全的集合/ListDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/houliu/多线程操作/线程安全的集合/MapDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="74" column="29" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="29" />
-          <folding>
-            <element signature="e#1762#1763#0" expanded="true" />
-            <element signature="e#1798#1799#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/houliu/多线程操作/CAS/AtomicIntegerDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="23" column="50" lean-forward="true" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/houliu/多线程操作/生消模式/生消3/MyResources.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="508">
@@ -936,11 +910,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/houliu/设计模式/单例模式/TestEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="322">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding>
             <element signature="e#388#389#0" expanded="true" />
             <element signature="e#424#425#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/houliu/java8/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/houliu/java8/TestUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="82" column="105" selection-start-line="82" selection-start-column="105" selection-end-line="82" selection-end-column="105" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/houliu/java8/TestOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="14" column="101" selection-start-line="14" selection-start-column="101" selection-end-line="14" selection-end-column="101" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
