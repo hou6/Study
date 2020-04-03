@@ -11,6 +11,12 @@ public class Test {
         proxyInvocationHandler.setObject(host);
         Rent rent = (Rent) proxyInvocationHandler.getProxy();
         rent.rent();
+        try {
+            Thread.sleep(Integer.MAX_VALUE);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
 
     }
 }
