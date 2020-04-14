@@ -1,4 +1,4 @@
-package com.houliu.gui.lesson03_3;
+package com.houliu.gui.lesson02_3;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;
