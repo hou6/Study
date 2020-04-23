@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        /**
+         *
+         * @type {Map<any, any>}
+         */
+        let map = new Map([['tom',100],['jack',200],['houliu',666]]);
+        let jack = map.get('jack');  //通过key获取value
+        console.log(jack);
+
+        map.set('admin',99);
+        console.log(map);
+        map.delete('tom');
+
+        /**
+         *
+         * @type {Set<number>}
+         */
+        let set = new Set([1,2,2,3,4,4,4,4]);  //set可以自动去重
+        console.log(set);
+
+        set.add(5);
+        set.delete(1);
+        console.log(set);
+        console.log(set.has(5));  //是否包含某个元素
+
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>

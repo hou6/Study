@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        var x = "xxx";
+        alert(x);
+        alert(window.x);  //默认所有的全局变量，都会自动绑定在window对象下
+    </script>
+
+    <script>
+        //唯一全局变量
+        let houliu = {};
+
+        //定义全局变量，把自己的代码全部放入自己定义的唯一空间中，降低全局命名冲突的问题
+        houliu.name = 'zhangsan';
+        houliu.add = function (a,b) {
+            return a + b;
+        }
+    </script>
+
+    <script>
+        for (let i = 0; i < 6; i++) {
+            console.log(i);
+        }
+        //console.log(i);  //不能输出，会报错
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>

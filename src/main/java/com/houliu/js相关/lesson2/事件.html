@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+
+    <style>
+        #divMove{
+            width: 500px;
+            height: 500px;
+            border: 1px solid red;
+        }
+    </style>
+
+</head>
+<body>
+
+<p>光标当前坐标: <span id="mouseMove"></span></p>
+<div id="divMove">
+    在这里移动鼠标可以变化坐标值
+</div>
+
+<script>
+    //当页面加载完毕后，响应事件
+    $(function () {
+        $('#divMove').mousemove(function (e) {
+            $('#mouseMove').text('x:' + e.pageX + '\ty:' + e.pageY);
+        })
+    })
+</script>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <!--<script>-->
+        <!--let houliu = {-->
+            <!--name: 'zhangsan',-->
+            <!--birth: 1995,-->
+            <!--age: function () {-->
+                <!--var now = new Date().getFullYear();-->
+                <!--return now - this.birth;-->
+            <!--}-->
+        <!--}-->
+    <!--</script>-->
+
+    <script>
+        function getAge() {
+            var now = new Date().getFullYear();
+            return now - this.birth;
+        }
+        var person = {
+            name: 'zhangsan',
+            birth: 1995,
+            age: getAge
+        };
+
+        getAge.apply(person,[]);  //this指向了person，参数为空
+    </script>
+
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        let numbers = [1,2,3,4,5,6,7,8];
+        //for...of...  得到的是具体的值
+        for (let number of numbers){
+            console.log(number);
+        }
+
+        //for...in...  得到的是下标
+        for (let number in numbers){
+            console.log(number);
+        }
+
+        //for。。。of 遍历map,得到的是具体的值
+        let map = new Map([['李四',24],['张三',3],['猴六',23]]);
+        for (let m of map){
+            console.log(m);
+        }
+
+        //for....of 遍历set,得到的是具体的值
+        let set = new Set([2,3,3,4,45]);
+        for (let s of set){
+            console.log(s);
+        }
+
+    </script>
+
+
+</head>
+<body>
+
+</body>
+</html>

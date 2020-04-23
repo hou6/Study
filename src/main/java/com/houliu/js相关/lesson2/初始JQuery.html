@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+</head>
+<body>
+
+<a href="http://www.laoniuniu.com" id="test_Jquery">点我去博客</a>
+
+<!--
+    公式： $(selector).action()
+-->
+<script>
+    var test_jquery = document.getElementById('test_Jquery');
+    //选择器就是CSS的选择器
+    $('#test_Jquery').click(function () {
+        alert("去我的博客");
+    })
+</script>
+
+</body>
+</html>

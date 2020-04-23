@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+</head>
+<body>
+
+<ul id="test-ul">
+    <li class="js">js</li>
+    <li name="java">java</li>
+</ul>
+
+<script>
+    $('#test-ul li[class=js]').text();  //获取文本
+    $('#test-ul li[class=js]').text('Hello-World'); //修改文本
+</script>
+
+</body>
+</html>

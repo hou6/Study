@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    /**
+     * es6之前
+     * @param name
+     */
+    function student(name) {
+        this.name = name;
+    }
+    //给student新增 hello() 一个方法
+    student.prototype.hello = function () {
+        alert("hello");
+    };
+
+    /**
+     * es6之后
+     */
+    //定义一个学生类
+    class Student{
+        constructor(name){
+            this.name = name;
+        }
+        //给student新增 hello() 一个方法
+        hello(){
+            alert("hello");
+        }
+    }
+
+    var xiaoming = new Student("xiaoming");
+    var xiaohong = new Student("xiaohong");
+    xiaoming.hello();
+    xiaohong.hello();
+
+    //继承
+    class xiaoStudent extends Student{
+        constructor(name,grade){
+            super(name);
+            this.grade = grade;
+        }
+        //定义一个自己的方法
+        myGrade(){
+            alert("我是小学生");
+        }
+    }
+
+    var houliu = new xiaoStudent("houliu",'男');
+    var houba = new xiaoStudent("houba",'女');
+    houliu.hello();
+    houliu.myGrade();
+    houba.myGrade();
+    houba.hello();
+
+</script>
+
+</body>
+</html>
